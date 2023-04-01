@@ -161,12 +161,15 @@ body {
   padding: 8rem 7% 1.4rem;
 }
 .contact {
-  padding: 8rem 15% 1.4rem;
+  padding: 7rem 15% 1.4rem;
 }
-
+.dokumentasi {
+  padding: 3rem 6% 1.4rem;
+}
 .about h2,
 .team h2,
-.contact h2 {
+.contact h2,
+.dokumentasi h2 {
   text-align: center;
   font-size: 2.4rem;
   margin-bottom: 2rem;
@@ -174,7 +177,8 @@ body {
 
 .about h2 span,
 .team h2 span,
-.contact h2 span {
+.contact h2 span,
+.dokumentasi h2 span {
   color: var(--primary);
 }
 
@@ -201,6 +205,7 @@ body {
   margin-bottom: 1rem;
 }
 .about .row .content p {
+  color: var(--primary);
   text-align: center;
   margin-bottom: 0.6rem;
   font-size: 1.2rem;
@@ -254,7 +259,6 @@ body {
   width: 300px;
   margin-top: 0.5rem;
   padding: 2 px;
-  /* border: 5px solid var(--primary); */
   border-radius: 5px;
 }
 
@@ -272,6 +276,22 @@ body {
   margin-bottom: 0.5rem;
   font-weight: 300;
   font-size: 15px;
+}
+
+/* Dokumentasi Section */
+.dokumentasi .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  justify-content: center;
+  gap: 2rem 7%;
+}
+
+.dokumentasi .row .dokumentasi-img img {
+  width: 350px;
+  padding: auto;
+  margin-top: 1rem;
+  border-radius: 2px;
 }
 
 /* Contact Section */
@@ -422,7 +442,6 @@ footer .credit a {
   }
 
   .about .row .about-img img {
-    height: 24rem;
     object-fit: cover;
     object-position: center;
   }
