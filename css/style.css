@@ -180,6 +180,7 @@ body {
 
 .about .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about .row .about-img {
@@ -191,18 +192,26 @@ body {
 }
 
 .about .row .content {
-  flex: 1 1 35rem;
   padding: 0 1rem;
 }
 
 .about .row .content h3 {
+  text-align: center;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
-
 .about .row .content p {
-  margin-bottom: 0.8rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
   font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.about .row .content ul li {
+  text-align: justify;
+  margin-bottom: 0.2rem;
+  margin-left: 1.2rem;
+  font-size: 1rem;
   font-weight: 100;
   line-height: 1.6;
 }
